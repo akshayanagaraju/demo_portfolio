@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+            background-color: white;
+            position: sticky;
+            top: 0px;
+        }
+
+        .logo-parent {
+            width: 10%;
+        }
+
+        .navbar-links {
+            width: 70%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .navbar-links a {
+            color: cadetblue;
+            font-weight: bold;
+            font-family: sans-serif;
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+
+        .lets-talk {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 8%;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 25px;
+        }
+
+        .lets-talk:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+        .cloud-container {
+            font-family: sans-serif;
+            background-color: beige;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2% 5%;
+        }
+
+        .cloud-developer {
+            width: 40%;
+        }
+
+        .cloud-developer h1 {
+            font-size: 2.3rem;
+        }
+
+        .cloud-developer p {
+            text-align: justify;
+        }
+
+        .my-profile {
+            width: 40%;
+        }
+
+        .cloud-links a {
+            background-color: black;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 0px 10px;
+        }
+
+        .cloud-links a:hover {
+            background-color:white;
+            color:black;
+        }
+
+        .about-me-container {
+            background-color: white;
+        }
+
+        .about-me {
+            width: 80%;
+        }
+
+        .about-me h2 {
+            color: cadetblue;
+        }
+
+        .about-me p {
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+        .about-left{
+            position: relative;
+        }
+        .project-count{
+            position: absolute;
+            bottom: 0%;
+            right: 15%;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .project-count p{
+            color: cadetblue;
+        }
+        .about-my-profile{
+            width: 75%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="" class="logo-parent">
+            <img src="akshaya.jpg" width="50px" height="50px" alt="">
+        </a>
+        <div class="navbar-links">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Services</a>
+            <a href="">Skill</a>
+            <a href="">Work</a>
+            <a href="">Pricing</a>
+            <a href="">Testimonial</a>
+        </div>
+        <a href="" class="lets-talk">Lets Talk</a>
+    </nav>
+
+    <div class="cloud-container">
+        <div class="cloud-developer">
+            <h1>Hey! I am a Cloud Engineer</h1>
+            <p>I specialize in building and maintaining cloud-based environments that support high availability and scalability. My work involves automating infrastructure, managing deployments, and optimizing resources to deliver seamless cloud experiences.</p>
+            <div class="cloud-links">
+                <a href="">LEARN MORE</a>
+                <a href="">HIRE ME</a>
+            </div>
+        </div>
+        <img class="my-profile"
+            src="akshaya.jpg" alt="">
+    </div>
+
+    <div class="cloud-container about-me-container">
+        <div class="about-left">
+            <img class="about-my-profile"
+                src="akshaya.jpg" alt="">
+            <div class="project-count">
+                <h2>Cloud Engineer</h2>
+                <p>Deployed 10+ scalable cloud solutions</p>
+            </div>
+        </div>
+
+        <div class="about-me">
+            <h3>About me</h3>
+            <h2>I am passionate about Cloud Technologies</h2>
+            <p>I am a Cloud Engineer with hands-on experience in deploying, managing, and automating cloud infrastructure. Skilled in building scalable and secure solutions using AWS, Azure, and DevOps tools. I enjoy solving complex cloud challenges and optimizing systems for performance and cost efficiency.</p>
+            <h2>smart work</h2>
+            <p>A part of the team that has deployed multiple enterprise-level applications on the cloud. Experienced in automating deployment pipelines, managing infrastructure as code, and ensuring high availability through monitoring and load balancing.</p>
+            <h2>modern work</h2>
+            <p>I’ve worked with a wide range of technologies including Docker, Kubernetes, Terraform, and Python scripting. I’m passionate about leveraging cloud technologies to design innovative, modern, and efficient systems that drive business growth.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
